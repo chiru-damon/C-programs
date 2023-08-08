@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include"Node.c"
 #include"Create.c"
-
+#include<Display.c"
 
 typedef struct Tag Node;
 
@@ -12,10 +12,6 @@ typedef struct Tag Node;
     printf("enter no of nodes : ");
     scanf("%d",&n);
     Home=Create(n);
-    p=Home;
-    while (p!=NULL){
-        printf("%d ",p->Data);
-        p=p->Next;
-    }
+    Display(Home);
 }
  
