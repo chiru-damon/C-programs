@@ -2,7 +2,9 @@
 #include<stdlib.h>
 #include"Node.c"
 #include"Create.c"
-#include<Display.c"
+#include"Display.c"
+#include"Count.c"
+#include"BubSort.c"
 
 typedef struct Tag Node;
 
@@ -12,6 +14,8 @@ typedef struct Tag Node;
     printf("enter no of nodes : ");
     scanf("%d",&n);
     Home=Create(n);
+    Display(Home);
+    BubSort(Home);
     Display(Home);
 }
  
