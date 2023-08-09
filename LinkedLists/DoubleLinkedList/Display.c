@@ -7,5 +7,4 @@ void Display(DNode * Home){
         p=p->Right;
         i++;
     }
-    printf("\n");
 }
