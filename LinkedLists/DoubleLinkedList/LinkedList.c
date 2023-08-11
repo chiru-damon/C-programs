@@ -3,6 +3,7 @@
 #include"DNode.c"
 #include"Display.c"
 #include"Create.c"
+#include"DelNode.c"
 
 void main(){
     int n;
@@ -10,5 +11,4 @@ void main(){
     printf("Enter No of Nodes :");
     scanf("%d",&n);
     Home = Create(n);
-    Display(Home);
 }
